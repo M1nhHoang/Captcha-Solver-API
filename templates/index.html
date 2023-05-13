@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='CSS/style.css') }}">
+    
+    <title>Home</title>
+</head>
+<body>
+    <div class="scrolllist_textcaptcha">
+        <div>
+            <div class="scrolllist_heading_textcaptcha">
+                <h2 class="textcaptcha_tittle">Text Captcha</h2>
+            </div>
+        </div>
+
+        <div class="scrolllist_body_textcaptcha">
+            <!-- type 1 -->
+            <div class="commonitem_wrapper_textcaptcha">
+                <a class="commonitem_thumb_textcaptcha" target="_self" href="/trycaptcha?captcha=text-captcha&type=1" style="background-image: url(Images/Text_Captcha_type1.png);">
+                    <button class="BtItem_thumb" href="/trycaptcha?captcha=text-captcha&type=1">Dùng Thử</button>
+                </a>
+                <h3 class="commonitem_tittle_textcaptcha">
+                    <a target="_self" href="/trycaptcha?captcha=text-captcha&type=1">Loại 1</a>
+                </h3>
+            </div>
+            <!-- type 2 -->
+            <div class="commonitem_wrapper_textcaptcha">
+                <a class="commonitem_thumb_textcaptcha" target="_self" href="/trycaptcha?captcha=text-captcha&type=2" style="background-image: url(Images/Text_Captcha_type2.png);">
+                    <button class="BtItem_thumb" href="/trycaptcha?captcha=text-captcha&type=2">Dùng Thử</button>
+                </a>
+                <h3 class="commonitem_tittle_textcaptcha">
+                    <a target="_self" href="/trycaptcha?captcha=text-captcha&type=2">CSDN Captcha</a>
+                </h3>
+            </div>
+            <!-- type 3 -->
+            <div class="commonitem_wrapper_textcaptcha">
+                <a class="commonitem_thumb_textcaptcha" target="_self" href="/trycaptcha?captcha=text-captcha&type=3" style="background-image: url(Images/Text_Captcha_type3.png);">
+                    <button class="BtItem_thumb" href="/trycaptcha?captcha=text-captcha&type=3">Dùng Thử</button>
+                </a>
+                <h3 class="commonitem_tittle_textcaptcha">
+                    <a target="_self" href="/trycaptcha?captcha=text-captcha&type=3">CSDN Captcha</a>
+                </h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="scrolllist_dragcaptcha">
+        <div class="dragCt_tittle">
+            <h2 class="dragCt_tittle">....</h2>
+        </div>
+        <div class="dragCt_item">
+            
+        </div>
+    </div>
+</body>
+    <script type="text/javascript" src="{{ url_for('static',filename='js/Javascript.js') }}"></script>
+</html>

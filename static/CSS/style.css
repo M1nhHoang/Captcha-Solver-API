@@ -1,0 +1,239 @@
+.scrolllist_textcaptcha{
+    display: block;
+    overflow-x:auto;
+    overflow-y:hidden;
+    padding-bottom:16px;
+}
+
+.scrolllist_heading_textcaptcha{
+    align-items:baseline;
+    display:flex;
+}
+
+.textcaptcha_tittle{
+    color:#242424;
+    font-size:2rem;
+    font-weight:900;
+    margin-right:auto;
+    margin-top:16px;
+}
+
+.textcaptcha_tittle a{
+    color:#000;
+}
+
+.scrolllist_body_textcaptcha{
+    display:flex;
+    flex-wrap: wrap;
+    overflow-x:auto;
+    overflow-y:hidden;
+    padding-bottom:0px;
+    min-height:  100px;
+}
+
+.commonitem_wrapper_textcaptcha{
+    margin-bottom:32px;
+    margin-left:16px;
+    overflow:unset;
+    position:relative;
+    width: 23.555%;
+    
+}
+
+.commonitem_thumb_textcaptcha{
+    background-color: rgba(0,0,0,.1);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /*image-rendering: pixelated;*/
+    border-radius: 16px;
+    display: block;
+    object-fit: cover;
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+    width: 100%;
+}
+
+.BtItem_thumb{
+    background-color: #fff;
+    border-color: #fff;
+    color: #000;
+    left: 50%;
+    opacity: 0;
+    position: absolute;
+    top: 60%;
+    transform: translate(-50%,-50%);
+    transition: all .3s ease 0s;
+    visibility: hidden;
+    z-index: 1; 
+}
+
+.commonitem_thumb_textcaptcha:hover .BtItem_thumb{
+    visibility: visible;
+    opacity: 1;
+    border-radius: 15px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    outline: none;
+    padding: 6px 15px;
+    text-align: center;
+    user-select: none;
+    white-space: nowrap;
+    top: 50%;
+    cursor: pointer;
+}
+
+.commonitem_thumb_textcaptcha:hover:after{
+    visibility: visible;
+    opacity: 1;
+}
+
+.commonitem_thumb_textcaptcha:after{
+    background-color: rgba(0,0,0,.5);
+    content: "";
+    inset: 0;
+    opacity: 0;
+    position: absolute;
+    transition: all .3s ease 0s;
+    visibility: hidden;
+}
+
+.commonitem_tittle_textcaptcha a{
+    word-wrap:break-word;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:1;
+    color:#292929;
+    display:-webkit-box;
+    font-size:1.6rem;
+    line-height:1.4;
+    overflow:hidden;
+}
+
+.commonitem_tittle_textcaptcha a{
+    outline: none;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+/*===============================================================================*/
+.readMe_box{
+    display: block;
+    overflow-x:auto;
+    overflow-y:hidden;
+    padding-bottom:16px;
+    background-color: green;
+}
+
+.upLoadImg_box{
+    display:block;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.imageDemo_display{
+    background: #fff;
+    transition: all 0.2s ease;
+    border-radius: 5px;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    width: auto;
+    height: auto;
+    padding: 0 0 0 0;
+    margin: 16px 0 16px 0;
+    position: relative;
+}
+
+.imageDemo{
+    display: block;
+    max-width: 100%;
+    font-size: calc(0.875 * 16px);
+    width: 100%;
+    height: auto;
+    padding: 0 0 0 0;
+    margin: calc(2.5 * 16px) auto calc(2.5 * 16px) auto;
+}
+
+.img_ico{
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
+    overflow: hidden;
+    width: max-content;
+    box-shadow: none;
+    max-width: 100%;
+}
+
+.img_des{
+    font-size: inherit;
+    line-height: 1.5em;
+    color: #666;
+    margin: 1.3em auto 0;
+    text-align: center;
+    max-width: 85%;
+}
+
+.inputImage {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.img_display {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.result{
+    display: flex;
+    font-size: 1.4rem;
+    margin: 16px auto;
+    justify-content: center;
+}
+
+.buttonPredict{
+    margin-top: 16px;
+    min-width: 180px;
+    appearance: none;
+    border: 1px solid ;
+    border-radius: 999px!important;
+    display: block;
+    background-color: var(--white-color);
+    font-size: 1.4rem;
+    font-weight: 600;
+    outline: none;
+    padding: 9px 16px;
+    text-align: center;
+    transition: .3s ease;
+    user-select: none;
+    white-space: nowrap;
+    cursor: pointer;
+    margin: 16px auto;
+}
+
+.buttonPredict:hover{
+    background-color: #F5F5F5;
+}
+
+.buttonPredict:active {
+  transform: translate(1px, 1px);
+}

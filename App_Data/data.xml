@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<captcha>
+	<text-captcha>
+		<type>
+			<id>1</id>
+			<imgTestURL>https://drive.google.com/drive/u/1/folders/1Gg95x_4koHyEACeekp8wnzwliFAlAijE</imgTestURL>
+		</type>
+		<type>
+			<id>2</id>
+			<imgTestURL>https://drive.google.com/drive/u/1/folders/12wladohArkqA2Jzw1r2ZuZReYs5bh8jV</imgTestURL>
+		</type>
+		<type>
+			<id>3</id>
+			<imgTestURL>https://drive.google.com/drive/u/1/folders/1hS_D0WiAro1Q4dR1f2q3sJWaZJfRHWME</imgTestURL>
+		</type>
+	</text-captcha>
+</captcha>

@@ -1,0 +1,30 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='CSS/style.css') }}">
+    
+    <title>Try {{content[0]}} Type {{content[1]}}</title>
+</head>
+<body>
+    <div class="readMe_box"></div>
+    <div class="upLoadImg_box">
+        <div class="imageDemo_display">
+            <input type="file" accept=".jpg, .png" id="upload_Image" class="inputImage" />
+            <div class="imageDemo">
+                <div class="img_ico">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" shape-rendering="geometricPrecision" viewBox="0 0 24 24" height="24" width="24" style="color: currentcolor;">
+                        <rect width="18" height="18" x="3" y="3" rx="2" ry="2"></rect>
+                        <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                        <path d="M21 15l-5-5L5 21"></path>
+                    </svg>
+                </div>
+                <div class="img_des">Chọn Hình Ảnh Của Bạn</div>
+            </div>
+        </div>
+        <div class="result" id="result"></div>
+        <button id="predict" class="buttonPredict">Dự Đoán</button>
+        <a target="_blank" href={{content[2]}}>test_dataset</a>
+    </div>
+</body>
+    <script type="text/javascript" src="{{ url_for('static',filename='js/Javascript.js') }}"></script>
+</html>
